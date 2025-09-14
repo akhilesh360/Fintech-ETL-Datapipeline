@@ -107,7 +107,7 @@ A portfolio-ready, end-to-end demo showing how to:
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 ```
 data/
   raw/                 # source-like files (CSV/JSON) for demo
@@ -130,7 +130,7 @@ requirements.txt
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1) Install
 ```bash
@@ -169,7 +169,7 @@ For portability, local runs default to **SQLite**. The SQL in `models/snowflake/
 
 ---
 
-## 🧪 Tests
+##  Tests
 A minimal test ensures the pipeline builds tables and loads rows. Run:
 ```bash
 pytest -q
@@ -177,14 +177,14 @@ pytest -q
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 - **Python** (pandas, SQLAlchemy, pydantic)
 - **SQLite** (default) / **Snowflake-ready SQL** (optional)
 - **Streamlit** (BI/dashboard)
 
 ---
 
-## 🔗 Portfolio Talking Points
+##  Portfolio Talking Points
 - Built **modular ETL** with source-specific ingestion, schema validation, and idempotent loads.
 - Modeled a **star schema** with `fact_transactions`, `dim_users`, `dim_products`.
 - Delivered **BI dashboards** surfacing DAU, GMV, AOV, product usage, & revenue trends.
