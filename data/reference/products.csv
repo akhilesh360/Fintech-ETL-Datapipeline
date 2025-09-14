@@ -1,0 +1,26 @@
+product_id,product_name,category,active
+P001,Debit Card,card,True
+P002,Auto Loan,credit,True
+P003,CD Account,deposit,True
+P004,Retirement IRA,invest,True
+P005,Device Protection,insure,True
+P006,Debit Card,card,True
+P007,Auto Loan,credit,True
+P008,CD Account,deposit,True
+P009,Retirement IRA,invest,True
+P010,Device Protection,insure,True
+P011,Debit Card,card,True
+P012,Auto Loan,credit,True
+P013,CD Account,deposit,True
+P014,Retirement IRA,invest,True
+P015,Device Protection,insure,True
+P016,Debit Card,card,True
+P017,Auto Loan,credit,True
+P018,CD Account,deposit,True
+P019,Retirement IRA,invest,True
+P020,Device Protection,insure,True
+P021,Debit Card,card,True
+P022,Auto Loan,credit,True
+P023,CD Account,deposit,True
+P024,Retirement IRA,invest,True
+P025,Device Protection,insure,True
