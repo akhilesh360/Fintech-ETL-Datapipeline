@@ -97,7 +97,7 @@ pytest tests/
 ---
 # Scalable ETL Pipelines & BI Adoption — Fintech Startup
 
-A portfolio-ready, end-to-end demo showing how to:
+A portfolio-ready, end-to-end, showing how to:
 - **Ingest** multiple fintech data sources (transactions CSV, users JSON, products CSV).
 - **Transform & model** data into a **star schema** (SQLite by default, Snowflake-ready SQL included).
 - **Serve BI** via a **Streamlit** dashboard (KPIs, trends, product usage).
@@ -150,7 +150,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 📊 Included KPIs (examples)
+##  Included KPIs (examples)
 - **DAU (Daily Active Users)** — distinct users with ≥1 transaction.
 - **GMV (Gross Merchandise Volume)** — sum of transaction amounts.
 - **AOV (Average Order Value)** — GMV / # transactions.
@@ -159,7 +159,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 🧊 Snowflake Notes
+##  Snowflake Notes
 This project ships with **Snowflake DDL/DML** in `models/snowflake/` so you can:
 1. Point the ETL to Snowflake (optional; not required for local run).
 2. Create equivalent tables/roles/indexing strategies in Snowflake.
