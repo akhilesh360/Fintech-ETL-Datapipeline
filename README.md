@@ -3,6 +3,7 @@
 ## Project Overview
 
 This repository demonstrates a production-style ETL and BI pipeline for fintech data, including synthetic transactions, users, and product information. The project showcases best practices in data engineering, analytics, and dashboarding, designed for consultants, analysts, and engineers seeking robust, modular, and reproducible workflows.
+<img width="7500" height="2300" alt="image" src="https://github.com/user-attachments/assets/0bc6018c-5537-474f-984a-2334dd024314" />
 
 
 ## Key Features
