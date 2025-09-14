@@ -42,7 +42,7 @@ fintech_etl_bi/
 - **Streamlit/Flask:** Dashboarding
 - **pytest:** Testing
 
-## Example Outputs
+## Outputs
 
 - **Dashboard:** Interactive charts and tables for KPIs
   <img width="847" height="838" alt="Screenshot 2025-09-14 at 3 11 18 PM" src="https://github.com/user-attachments/assets/7f337826-50dd-4f8d-9b55-e291ebf210df" />
@@ -51,17 +51,6 @@ fintech_etl_bi/
 - **ETL Logs:** Stepwise reporting of data ingestion and transformation
 - **Warehouse Tables:** Analytics-ready schemas for reporting
   <img width="887" height="457" alt="Screenshot 2025-09-14 at 3 16 49 PM" src="https://github.com/user-attachments/assets/d06edac7-98ea-4c48-884f-d6d1c3135093" />
-
-
-## How to Contribute
-
-1. Fork the repo and create a feature branch
-2. Follow modular code structure and comment clearly
-3. Submit a pull request with a description of your changes
-
-## Acknowledgements
-
-Inspired by best practices in fintech analytics and open-source data engineering.
 
 ---
 
@@ -156,7 +145,7 @@ streamlit run dashboard/app.py
 
 ---
 
-##  Included KPIs (examples)
+##  Included KPIs
 - **DAU (Daily Active Users)** — distinct users with ≥1 transaction.
 - **GMV (Gross Merchandise Volume)** — sum of transaction amounts.
 - **AOV (Average Order Value)** — GMV / # transactions.
