@@ -20,7 +20,7 @@ fintech_etl_bi/
 ├── data/           # Raw and reference datasets
 ├── models/         # Database schemas (Snowflake, SQLite)
 ├── warehouse/      # DB connection and query logic
-├── dashboard/      # Streamlit or Flask dashboard app
+├── dashboard/      # Streamlit dashboard app
 ├── tests/          # Unit tests for pipeline and logic
 ├── requirements.txt
 ├── README.md
