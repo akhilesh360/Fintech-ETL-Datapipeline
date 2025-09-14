@@ -95,7 +95,7 @@ pytest tests/
 ```
 
 ---
-# Scalable ETL Pipelines & BI Adoption — Fintech Startup (Demo)
+# Scalable ETL Pipelines & BI Adoption — Fintech Startup
 
 A portfolio-ready, end-to-end demo showing how to:
 - **Ingest** multiple fintech data sources (transactions CSV, users JSON, products CSV).
@@ -110,7 +110,7 @@ A portfolio-ready, end-to-end demo showing how to:
 ##  Architecture
 ```
 data/
-  raw/                 # source-like files (CSV/JSON) for demo
+  raw/                 # source-like files (CSV/JSON) for sample data
   reference/           # reference/master data
 etl/
   config.py            # config (DB URL, file paths, fee rates, etc.)
@@ -160,8 +160,8 @@ streamlit run dashboard/app.py
 ---
 
 ## 🧊 Snowflake Notes
-This demo ships with **Snowflake DDL/DML** in `models/snowflake/` so you can:
-1. Point the ETL to Snowflake (optional; not required for local demo).
+This project ships with **Snowflake DDL/DML** in `models/snowflake/` so you can:
+1. Point the ETL to Snowflake (optional; not required for local run).
 2. Create equivalent tables/roles/indexing strategies in Snowflake.
 3. Use your Looker (or other BI) on top of Snowflake.
 
