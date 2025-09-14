@@ -89,19 +89,6 @@ python dashboard/app.py
 pytest tests/
 ```
 
----
-# Scalable ETL Pipelines & BI Adoption — Fintech Startup
-
-A portfolio-ready, end-to-end, showing how to:
-- **Ingest** multiple fintech data sources (transactions CSV, users JSON, products CSV).
-- **Transform & model** data into a **star schema** (SQLite by default, Snowflake-ready SQL included).
-- **Serve BI** via a **Streamlit** dashboard (KPIs, trends, product usage).
-- **Collaborate on KPIs** with a crisp lineage from raw → models → dashboard.
-
-> Quick start (local, SQLite): run the ETL, then launch the dashboard.
-
----
-
 ##  Architecture
 ```
 data/
@@ -171,16 +158,3 @@ pytest -q
 ```
 
 ---
-
-##  Tech Stack
-- **Python** (pandas, SQLAlchemy, pydantic)
-- **SQLite** (default) / **Snowflake-ready SQL** (optional)
-- **Streamlit** (BI/dashboard)
-
----
-
-##  Portfolio Talking Points
-- Built **modular ETL** with source-specific ingestion, schema validation, and idempotent loads.
-- Modeled a **star schema** with `fact_transactions`, `dim_users`, `dim_products`.
-- Delivered **BI dashboards** surfacing DAU, GMV, AOV, product usage, & revenue trends.
-- Clear **KPI lineage** from raw → modeled → dashboard; easy to swap SQLite → Snowflake.
